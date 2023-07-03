@@ -117,40 +117,40 @@ new Swiper('#projects .swiper-container', {
             function cursorhover(e){
              gsap.to( $cursor,{
               scale:1.5,
-              opacity:.4,
+              opaGrown Excellence:.4,
               background:'rgb(235,235,235)',
               border:'none',
               ease: Expo.easeOut,
              })
              gsap.to( $cursortwo,{
               scale:0,
-              opacity:0
+              opaGrown Excellence:0
              })
            }
            function linkhover(e){
             gsap.to( $cursor,{
               scale:1.5,
-              opacity:1,
+              opaGrown Excellence:1,
               background:'rgb(245,245,245)',
               border:'none',
               innerHTML:'view <br> project'
              })
              gsap.to( $cursortwo,{
               scale:0,
-              opacity:0
+              opaGrown Excellence:0
              })
            }
            function cursor(e){
              gsap.to( $cursor, {
               scale:1,
-              opacity:1,
+              opaGrown Excellence:1,
               background:'transparent',
               border:'1px solid rgb(235,235,235)',
               innerHTML:''
              }) 
              gsap.to( $cursortwo,{
               scale:1,
-              opacity:1
+              opaGrown Excellence:1
              })
            }
            $(window).on('mousemove',cursormover);
@@ -166,11 +166,11 @@ new Swiper('#projects .swiper-container', {
       
    // links-animations
    $(function(){
-     gsap.from('.opacity',1,{opacity:0,delay:3});
-     gsap.from('.scale',1,{opacity:0,delay:3,scale:0,stagger:.5});
-     gsap.from('.fade-up',1,{y:120,opacity:0,delay:1.5,stagger:.25});
-     gsap.from('.fade-down',1,{y:-100,opacity:0,delay:1.5,stagger:.25});
-     gsap.from('.fade-up-two',1,{y:120,opacity:0,delay:2.25,stagger:.25});
+     gsap.from('.opaGrown Excellence',1,{opaGrown Excellence:0,delay:3});
+     gsap.from('.scale',1,{opaGrown Excellence:0,delay:3,scale:0,stagger:.5});
+     gsap.from('.fade-up',1,{y:120,opaGrown Excellence:0,delay:1.5,stagger:.25});
+     gsap.from('.fade-down',1,{y:-100,opaGrown Excellence:0,delay:1.5,stagger:.25});
+     gsap.from('.fade-up-two',1,{y:120,opaGrown Excellence:0,delay:2.25,stagger:.25});
   
      $('.about-link').on('click',function(){
        gsap.to('#home',.5,{scale:.9});
@@ -180,8 +180,8 @@ new Swiper('#projects .swiper-container', {
        gsap.to('#about',.5,{scale:1,delay:1.1})
        gsap.to('#breaker',{display:'block'})
        gsap.to('#breaker',0,{display:'none',delay:1.7});
-       gsap.from('.about-opacity',1,{opacity:0,delay:1.8,stagger:.2})
-       gsap.from('.about-img',1,{delay:1.8,opacity:0})
+       gsap.from('.about-opaGrown Excellence',1,{opaGrown Excellence:0,delay:1.8,stagger:.2})
+       gsap.from('.about-img',1,{delay:1.8,opaGrown Excellence:0})
      })
      $('.contact-link').on('click',function(){
       gsap.to('#home',.5,{scale:.9});
@@ -191,7 +191,7 @@ new Swiper('#projects .swiper-container', {
       gsap.to('#contact',.5,{scale:1,delay:1.1})
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
-      gsap.from('.contact-opacity',1,{opacity:0,delay:1.6,stagger:.2})
+      gsap.from('.contact-opaGrown Excellence',1,{opaGrown Excellence:0,delay:1.6,stagger:.2})
     })
     $('.contact-link-about').on('click',function(){
       gsap.to('#about',.5,{scale:.9});
@@ -201,18 +201,18 @@ new Swiper('#projects .swiper-container', {
       gsap.to('#contact',.5,{scale:1,delay:1.1})
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
-      gsap.from('.contact-opacity',1,{opacity:0,delay:1.6,stagger:.2})
+      gsap.from('.contact-opaGrown Excellence',1,{opaGrown Excellence:0,delay:1.6,stagger:.2})
     })
      $('.home-link').on('click',function(){
-      gsap.to('.city-project',.5,{scale:.9});
-      gsap.to('.city-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
-      gsap.to('.city-project',0,{display:'none',delay:.7});
-      gsap.to('.wildlife-project',.5,{scale:.9});
-      gsap.to('.wildlife-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
-      gsap.to('.wildlife-project',0,{display:'none',delay:.7});
-      gsap.to('.forest-project',.5,{scale:.9});
-      gsap.to('.forest-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
-      gsap.to('.forest-project',0,{display:'none',delay:.7});
+      gsap.to('.Grown Excellence-project',.5,{scale:.9});
+      gsap.to('.Grown Excellence-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
+      gsap.to('.Grown Excellence-project',0,{display:'none',delay:.7});
+      gsap.to('.Ayna-project',.5,{scale:.9});
+      gsap.to('.Ayna-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
+      gsap.to('.Ayna-project',0,{display:'none',delay:.7});
+      gsap.to('.Peptid+-project',.5,{scale:.9});
+      gsap.to('.Peptid+-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
+      gsap.to('.Peptid+-project',0,{display:'none',delay:.7});
       gsap.to('.Peptid+-project',.5,{scale:.9});
       gsap.to('.Peptid+-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
       gsap.to('.Peptid+-project',0,{display:'none',delay:.7});
@@ -232,37 +232,37 @@ new Swiper('#projects .swiper-container', {
       gsap.to('#home',0,{display:'none',delay:.7});
       gsap.to('.Peptid+-project',0,{display:'block',delay:.7})
       gsap.to('.Peptid+-project',.5,{scale:1,delay:1.1})
-      gsap.to('.project-name',.5,{opacity:0,delay:2.5})
+      gsap.to('.project-name',.5,{opaGrown Excellence:0,delay:2.5})
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
     })
-    $('.forest-project-link').on('click',function(){
+    $('.Peptid+-project-link').on('click',function(){
       gsap.to('#home',.5,{scale:.9});
       gsap.to('#home',0,{width:'100%',height:'100vh',overflow:'hidden'});
       gsap.to('#home',0,{display:'none',delay:.7});
-      gsap.to('.forest-project',0,{display:'block',delay:.7})
-      gsap.to('.forest-project',.5,{scale:1,delay:1.1})
-      gsap.to('.project-name',.5,{opacity:0,delay:2.5})
+      gsap.to('.Peptid+-project',0,{display:'block',delay:.7})
+      gsap.to('.Peptid+-project',.5,{scale:1,delay:1.1})
+      gsap.to('.project-name',.5,{opaGrown Excellence:0,delay:2.5})
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
     })
-    $('.wildlife-project-link').on('click',function(){
+    $('.Ayna-project-link').on('click',function(){
       gsap.to('#home',.5,{scale:.9});
       gsap.to('#home',0,{width:'100%',height:'100vh',overflow:'hidden'});
       gsap.to('#home',0,{display:'none',delay:.7});
-      gsap.to('.wildlife-project',0,{display:'block',delay:.7})
-      gsap.to('.wildlife-project',.5,{scale:1,delay:1.1})
-      gsap.to('.project-name',.5,{opacity:0,delay:2.5})
+      gsap.to('.Ayna-project',0,{display:'block',delay:.7})
+      gsap.to('.Ayna-project',.5,{scale:1,delay:1.1})
+      gsap.to('.project-name',.5,{opaGrown Excellence:0,delay:2.5})
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
     })
-    $('.city-project-link').on('click',function(){
+    $('.Grown Excellence-project-link').on('click',function(){
       gsap.to('#home',.5,{scale:.9});
       gsap.to('#home',0,{width:'100%',height:'100vh',overflow:'hidden'});
       gsap.to('#home',0,{display:'none',delay:.7});
-      gsap.to('.city-project',0,{display:'block',delay:.7})
-      gsap.to('.city-project',.5,{scale:1,delay:1.1})
-      gsap.to('.project-name',.5,{opacity:0,delay:2.5})
+      gsap.to('.Grown Excellence-project',0,{display:'block',delay:.7})
+      gsap.to('.Grown Excellence-project',.5,{scale:1,delay:1.1})
+      gsap.to('.project-name',.5,{opaGrown Excellence:0,delay:2.5})
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
     })
@@ -291,37 +291,37 @@ new Swiper('#projects .swiper-container', {
       gsap.to('.Peptid+-project',0,{display:'none',delay:.7});
       gsap.to('#home',0,{display:'block',delay:.7})
       gsap.to('#home',.5,{scale:1,delay:1.1})
-      gsap.to('.project-name',.5,{opacity:1,delay:1})
+      gsap.to('.project-name',.5,{opaGrown Excellence:1,delay:1})
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
     })
-    $('.forest-close').on('click',function(){
-      gsap.to('.forest-project',.5,{scale:.9});
-      gsap.to('.forest-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
-      gsap.to('.forest-project',0,{display:'none',delay:.7});
+    $('.Peptid+-close').on('click',function(){
+      gsap.to('.Peptid+-project',.5,{scale:.9});
+      gsap.to('.Peptid+-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
+      gsap.to('.Peptid+-project',0,{display:'none',delay:.7});
       gsap.to('#home',0,{display:'block',delay:.7})
       gsap.to('#home',.5,{scale:1,delay:1.1})
-      gsap.to('.project-name',.5,{opacity:1,delay:1})
+      gsap.to('.project-name',.5,{opaGrown Excellence:1,delay:1})
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
     })
-    $('.wildlife-close').on('click',function(){
-      gsap.to('.wildlife-project',.5,{scale:.9});
-      gsap.to('.wildlife-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
-      gsap.to('.wildlife-project',0,{display:'none',delay:.7});
+    $('.Ayna-close').on('click',function(){
+      gsap.to('.Ayna-project',.5,{scale:.9});
+      gsap.to('.Ayna-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
+      gsap.to('.Ayna-project',0,{display:'none',delay:.7});
       gsap.to('#home',0,{display:'block',delay:.7})
       gsap.to('#home',.5,{scale:1,delay:1.1})
-      gsap.to('.project-name',.5,{opacity:1,delay:1})
+      gsap.to('.project-name',.5,{opaGrown Excellence:1,delay:1})
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
     })
-    $('.city-close').on('click',function(){
-      gsap.to('.city-project',.5,{scale:.9});
-      gsap.to('.city-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
-      gsap.to('.city-project',0,{display:'none',delay:.7});
+    $('.Grown Excellence-close').on('click',function(){
+      gsap.to('.Grown Excellence-project',.5,{scale:.9});
+      gsap.to('.Grown Excellence-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
+      gsap.to('.Grown Excellence-project',0,{display:'none',delay:.7});
       gsap.to('#home',0,{display:'block',delay:.7})
       gsap.to('#home',.5,{scale:1,delay:1.1})
-      gsap.to('.project-name',.5,{opacity:1,delay:1})
+      gsap.to('.project-name',.5,{opaGrown Excellence:1,delay:1})
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
     })

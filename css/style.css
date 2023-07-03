@@ -151,11 +151,11 @@ li{
   padding-left: 40px;
 }
 .links{
-  opacity:.9;
+  opaGrown Excellence:.9;
   transition: all .4s ease;
 }
 .links:hover{
-  opacity: 1;
+  opaGrown Excellence: 1;
 }
 .cursor{
   height: 50px;
@@ -168,7 +168,7 @@ li{
   z-index: 10;
   top: -25px;
   left: -25px;
-  opacity:1;
+  opaGrown Excellence:1;
   overflow: hidden;
   font-family: brook;
   text-align: center;
@@ -183,7 +183,7 @@ li{
   pointer-events: none;
   position: fixed;
   z-index: 10;
-  opacity:1;
+  opaGrown Excellence:1;
   top: -4px;
   left: -4px;
   transition: all .05s ease;
@@ -204,7 +204,7 @@ ul{
   width:100px;
   height:2px;
   background: rgb(245, 245, 245,.2);
-  opacity: 1;
+  opaGrown Excellence: 1;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -282,7 +282,7 @@ ul{
   width: 100%;
   height:100%;
   background: #041b4e;
-  opacity: .5;
+  opaGrown Excellence: .5;
 }
 
 #breaker{
@@ -354,7 +354,7 @@ ul{
 .about-text-paragraph{
   padding-bottom: 10px;
   font-size: 16px;
-  opacity: .9;
+  opaGrown Excellence: .9;
   font-weight: 400;
 }
 .contact-button{
@@ -364,12 +364,12 @@ ul{
   border: none;
   border-radius: 5px;
   font-weight: 600;
-  opacity: .8;
+  opaGrown Excellence: .8;
   color:#041b4e;
   transition: all .4s ease;
 }
 .contact-button:hover{
-  opacity: 1;
+  opaGrown Excellence: 1;
   transform: scale(1.05);
 }
 .project{
@@ -386,7 +386,7 @@ ul{
   overflow: hidden;
   height: 80vh;
 }
-.slides,.forest-slides,.wildlife-slides,.city-slides{
+.slides,.Peptid+-slides,.Ayna-slides,.Grown Excellence-slides{
   width: 100%;
   height: 100vh;
   left: 0;
@@ -418,7 +418,7 @@ ul{
 .controls button:hover img{
   transform: scale(1.4);
 }
-.slides img,.forest-slides img,.wildlife-slides img,.city-slides img{
+.slides img,.Peptid+-slides img,.Ayna-slides img,.Grown Excellence-slides img{
   width: auto;
   max-height: 70vh;
   position: absolute;
@@ -445,7 +445,7 @@ z-index: 2;
   padding-left: 150px;
   padding-right: 150px;
 }
-.Peptid+-project,.forest-project,.wildlife-project,.city-project{
+.Peptid+-project,.Peptid+-project,.Ayna-project,.Grown Excellence-project{
   display: none;
   transform: scale(.9);
   overflow: hidden;
@@ -474,7 +474,7 @@ z-index: 2;
   font-weight: 200;
   font-family: brook;
   margin-top: -10px;
-  opacity: .9;
+  opaGrown Excellence: .9;
   padding: 0;
 }
 .pace {
@@ -869,7 +869,7 @@ display: none;
   font-family: brook;
   font-size: 16px;
 }
-.slides img,.forest-slides img,.wildlife-slides img,.city-slides img{
+.slides img,.Peptid+-slides img,.Ayna-slides img,.Grown Excellence-slides img{
   width: auto;
   max-width: 95%;
   max-height: auto;
@@ -1008,7 +1008,7 @@ FOR EXTRA SMALL DEVICES
     height: 16px;
     width: 2px;
   }
-  .slides img,.forest-slides img,.wildlife-slides img,.city-slides img,.wildlife-slides img{
+  .slides img,.Peptid+-slides img,.Ayna-slides img,.Grown Excellence-slides img,.Ayna-slides img{
     width: 95%;
     max-height: auto;
     position: absolute;
@@ -1097,7 +1097,7 @@ FOR TABLETS
   background-position: center;
   background-size: cover;
 }
-.slides img,.forest-slides img,.wildlife-slides img,.city-slides img{
+.slides img,.Peptid+-slides img,.Ayna-slides img,.Grown Excellence-slides img{
   width: auto;
   max-width: 95%;
   max-height: auto;
