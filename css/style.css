@@ -445,7 +445,7 @@ z-index: 2;
   padding-left: 150px;
   padding-right: 150px;
 }
-.marine-project,.forest-project,.wildlife-project,.city-project{
+.Peptid+-project,.forest-project,.wildlife-project,.city-project{
   display: none;
   transform: scale(.9);
   overflow: hidden;

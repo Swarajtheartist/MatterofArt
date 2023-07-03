@@ -213,9 +213,9 @@ new Swiper('#projects .swiper-container', {
       gsap.to('.forest-project',.5,{scale:.9});
       gsap.to('.forest-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
       gsap.to('.forest-project',0,{display:'none',delay:.7});
-      gsap.to('.marine-project',.5,{scale:.9});
-      gsap.to('.marine-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
-      gsap.to('.marine-project',0,{display:'none',delay:.7});
+      gsap.to('.Peptid+-project',.5,{scale:.9});
+      gsap.to('.Peptid+-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
+      gsap.to('.Peptid+-project',0,{display:'none',delay:.7});
       gsap.to('#about',.5,{scale:.9});
       gsap.to('#about',0,{width:'100%',height:'100vh',overflow:'hidden'});
       gsap.to('#about',0,{display:'none',delay:.7});
@@ -226,12 +226,12 @@ new Swiper('#projects .swiper-container', {
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
     })
-    $('.marine-project-link').on('click',function(){
+    $('.Peptid+-project-link').on('click',function(){
       gsap.to('#home',.5,{scale:.9});
       gsap.to('#home',0,{width:'100%',height:'100vh',overflow:'hidden'});
       gsap.to('#home',0,{display:'none',delay:.7});
-      gsap.to('.marine-project',0,{display:'block',delay:.7})
-      gsap.to('.marine-project',.5,{scale:1,delay:1.1})
+      gsap.to('.Peptid+-project',0,{display:'block',delay:.7})
+      gsap.to('.Peptid+-project',.5,{scale:1,delay:1.1})
       gsap.to('.project-name',.5,{opacity:0,delay:2.5})
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
@@ -285,10 +285,10 @@ new Swiper('#projects .swiper-container', {
       gsap.to('#breaker',{display:'block'})
       gsap.to('#breaker',0,{display:'none',delay:1.7});
     })
-    $('.marine-close').on('click',function(){
-      gsap.to('.marine-project',.5,{scale:.9});
-      gsap.to('.marine-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
-      gsap.to('.marine-project',0,{display:'none',delay:.7});
+    $('.Peptid+-close').on('click',function(){
+      gsap.to('.Peptid+-project',.5,{scale:.9});
+      gsap.to('.Peptid+-project',0,{width:'100%',height:'100vh',overflow:'hidden'});
+      gsap.to('.Peptid+-project',0,{display:'none',delay:.7});
       gsap.to('#home',0,{display:'block',delay:.7})
       gsap.to('#home',.5,{scale:1,delay:1.1})
       gsap.to('.project-name',.5,{opacity:1,delay:1})
