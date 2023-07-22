@@ -1,10 +1,5 @@
 /* ------------------------------------------------------------------------------
 
-  Template Name: Ramsay
-  Description: Ramsay - Creative Personal Onepage HTML Template
-  Author: Paul_tf
-  Author URI: http://themeforest.net/user/paul_tf
-  Version: 1.0
   
   1.  Global
 
@@ -88,21 +83,21 @@ body{
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #00ffff;
+  background: #007bff;
 }
 
 ::selection{
-  background-color:#00ffff;
+  background-color:#007bff;
   color:#fff;
 }
 
 -webkit-::selection{
-    background-color:#00ffff;
+    background-color:#007bff;
     color:#fff;
 }
 
 ::-moz-selection{
-    background-color:#00ffff;
+    background-color:#007bff;
     color:#fff;
 }
 
@@ -120,7 +115,7 @@ h1,
   line-height: 1.2;
   font-weight: 600;
   color: #fff;
-  letter-spacing: -0.025em;
+  letter-spacing: 5rem;
   margin:0.5em 0;
 }
 
@@ -366,7 +361,7 @@ label.error{
 
 .btn:hover,
 .btn:focus{
-  background-color:#f5468b;
+  background-color:#4169e1;
   color: #fff;
   -webkit-box-shadow:none;
   box-shadow: none;
@@ -1244,7 +1239,7 @@ a.brand:focus{
   font-size: 6.54rem;
   font-weight: 600;
   line-height: 1;
-  letter-spacing: -0.05em;
+  letter-spacing: 0.2Rem;
   margin: 0;
 }
 
