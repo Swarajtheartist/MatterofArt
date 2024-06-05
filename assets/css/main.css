@@ -235,8 +235,8 @@ header .logo {
 
 header .logo a {
     text-decoration: none;
-    border: 2px solid #000;
-    padding: 6px 15px;
+    border: 0px solid #000;
+    padding: 0px 0px;
 }
 
 .parallax {
